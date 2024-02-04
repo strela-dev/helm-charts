@@ -5,6 +5,16 @@ metadata:
   labels:
   {{- include "strela.labels" . | nindent 4 }}
 rules:
+- resources:
+  - pods
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
 - apiGroups:
   - strela.dev
   resources:
