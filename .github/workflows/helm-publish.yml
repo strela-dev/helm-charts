@@ -3,7 +3,7 @@ name: Helm Chart Publish
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: read
