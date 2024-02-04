@@ -5,7 +5,9 @@ metadata:
   labels:
   {{- include "strela.labels" . | nindent 4 }}
 rules:
-- resources:
+- apiGroups:
+  - ""
+  resources:
   - pods
   verbs:
   - create
