@@ -7669,6 +7669,8 @@ spec:
           status:
             description: MinecraftServerSetStatus defines the observed state of MinecraftServerSet
             properties:
+              ingame:
+                type: integer
               ready:
                 type: integer
               replicas:
