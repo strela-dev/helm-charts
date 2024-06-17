@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   strela:
   - apiVersion: v2
+    appVersion: 0.0.5-beta
+    created: "2024-06-17T17:42:36.392521503Z"
+    description: A Helm chart for strela, it can manage Minecraft servers within Kubernetes
+    digest: c66ae2835505622f96a454bfc5794ae48742e61f40af5c4bbf7ecf8bee60592a
+    name: strela
+    type: application
+    urls:
+    - https://github.com/strela-dev/helm-charts/releases/download/strela-0.0.8-beta/strela-0.0.8-beta.tgz
+    version: 0.0.8-beta
+  - apiVersion: v2
     appVersion: 0.0.4-beta
     created: "2024-06-17T13:48:29.107426917Z"
     description: A Helm chart for strela, it can manage Minecraft servers within Kubernetes
@@ -71,4 +81,4 @@ entries:
     urls:
     - https://github.com/strela-dev/helm-charts/releases/download/strela-0.0.1/strela-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-17T13:48:29.107463114Z"
+generated: "2024-06-17T17:42:36.392563461Z"
